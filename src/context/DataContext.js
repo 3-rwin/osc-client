@@ -76,7 +76,7 @@ export const DataProvider = ({ children }) => {
             "port": "3333",
             "description": "localhost",
             "message": "/game/difficulty 1",
-            "color": "green"
+            "color": "orange"
         },
         {
             "id": 11,
@@ -84,7 +84,7 @@ export const DataProvider = ({ children }) => {
             "port": "3333",
             "description": "localhost",
             "message": "/game/difficulty 2",
-            "color": "green"
+            "color": "orange"
         },
         {
             "id": 12,
@@ -92,7 +92,7 @@ export const DataProvider = ({ children }) => {
             "port": "3333",
             "description": "localhost",
             "message": "/game/difficulty 3",
-            "color": "green"
+            "color": "orange"
         }
     ]);
     //const { data, fetchError, isLoading } = useAxiosFetch('http://' + window.location.hostname + ':4001/buttons')
