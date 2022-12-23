@@ -12,6 +12,7 @@ const Tabs = () => {
 
     return (
       <div className="tabs">
+        <div style={{paddingBottom: 15, color: "red"}}>Editing buttons and sending OSC messages is disabled in this demo, as no backend is running.</div>
         <ul className="nav">
             <li 
                 className={activeTab === "tab1" ? "active" : ""}
