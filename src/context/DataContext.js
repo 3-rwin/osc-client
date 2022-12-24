@@ -40,7 +40,7 @@ export const DataProvider = ({ children }) => {
             "ip": "127.0.0.1",
             "port": "3333",
             "description": "localhost",
-            "message": "/game/difficulty 3"
+            "message": "/game/language 3"
         },
         {
             "id": 6,
