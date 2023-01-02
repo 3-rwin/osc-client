@@ -11,8 +11,8 @@ const InputTab = ( { active } ) => {
   }
 
   return (
-    <form className={`inputTab ${active === "tab1" ? "notActive" : ""} `} onSubmit={createOscMessage}>
-        <div className="input">
+    <div className={`outputSection ${active === "tab1" ? "notActive" : ""} `} >
+    <form className="input" onSubmit={createOscMessage}>
           <input 
             type="text" 
             required 
@@ -32,14 +32,13 @@ const InputTab = ( { active } ) => {
             placeholder="Insert message"
           />
           <button type="submit">Send Message</button>
-        </div>
-        <section className="outputSection">
+          </form>
           <div className="outputTitle">Received messages:</div>
           <div id="output" className="output">
+              {/* This div will be filled with incoming messages */}
           </div>
           <button className="clearBtn" onClick={clearReceived}>Clear</button>
-        </section> 
-    </form>
+    </div>
   )
 }
 

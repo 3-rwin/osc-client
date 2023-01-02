@@ -98,7 +98,7 @@ ul.nav li.active {
 }
 
 .input, .outputSection {
-  width: 90%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -107,6 +107,7 @@ ul.nav li.active {
 }
 
 .input {
+  width: 100%;
   padding-bottom: 10px;
 }
 
